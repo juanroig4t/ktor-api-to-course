@@ -1,4 +1,4 @@
-package com.juanroig.plugins.model
+package com.juanroig.model
 
 import kotlinx.serialization.Serializable
 
