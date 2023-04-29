@@ -9,7 +9,7 @@ interface TaskRepository {
 
     suspend fun getAllTasks(): ApiTaskResponse<List<Task>>
 
-    fun getTaskById(id: Int): ApiTaskResponse<List<Task>>
+    fun getTaskById(id: Int): ApiTaskResponse<Task?>
 
     fun createTask(task: Task): ApiTaskResponse<Task>
 
